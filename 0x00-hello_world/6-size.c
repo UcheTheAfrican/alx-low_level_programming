@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - entry point.
- *
+ * main - Prints the size of many var types.
+ * 
  * return: Always 0 (success)
  */
 int main(void)
@@ -17,5 +17,5 @@ int main(void)
 	printf("Size of a long int: %d byte(s)\n", sizeof(c));
 	printf("Size of a long long int: %d byte(s)\n", sizeof(d));
 	printf("Size of a float: %d byte(s)\n", sizeof(e));
-	return (0); 
+	return (0);
 }
