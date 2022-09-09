@@ -3,7 +3,7 @@
  * main - Prints the size of many var types.
  * return: Always 0 (success)
  */
-int main(void);
+int main(void)
 {
 	char a;
 	int b;
