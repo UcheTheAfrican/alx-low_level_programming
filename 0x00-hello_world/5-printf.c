@@ -1,19 +1,10 @@
-#include <stdio.h>                                                                                                                  
-
-                                                                                                                                    
-
-/**                                                                                                                                 
- *
- *  * main - Printing in C task five                                                                                                             
- *
- *   *                                                                                                                                  
- *
- *    * Return : Always 0 <Success>                                                                                                      
- *
- *     */int main (void)                                                                                                                  
-
-{                                                                                                                                   
-
-	        put ("\"with proper grammar, but the outcome is a piece of art,\nn");                                                               
-
-		        return(0); 
+#include <stdio.h>
+/**
+ * description: main -Entry point 
+ * Return: 0 if successful.
+ */
+int main(void)
+{
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+	return(0);
+}
